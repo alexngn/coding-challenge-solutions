@@ -1,0 +1,5 @@
+This is a "count the number of connected components" question.
+
+Find the number of connected components and return that -1.
+
+Note: Use adjacency lists as adjacency matrix will memory limit exceed
