@@ -1,0 +1,5 @@
+Have a list called sizes
+Sizes keeps track of how many nodes visited before reaching current node
+Traverse the neighbors of current node
+If a neighbor has a size value, we found a cycle
+Return the path from (start+size, end) as answer
