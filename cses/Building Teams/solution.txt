@@ -1,0 +1,3 @@
+Create a bidrectional undirected graph for all the edges.
+For every node run a bfs and check if it's possible to be bipartite
+Print all nodes in a red and blue set
