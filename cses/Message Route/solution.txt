@@ -1,0 +1,5 @@
+This problem can be solved with BFS.
+Use a set to prevent infinite loops.
+Return number of iteration of BFS to make it to destination.
+
+Use pairs to keep track of who the parent is.
