@@ -1,0 +1,4 @@
+Run Djkstra's and then print the distance graph from source to all other nodes.
+
+Whenever you process a node, that is the shortest distance it can ever be. 
+No need for complicated checking. If it has a distance, it doesn't need to be updated.
