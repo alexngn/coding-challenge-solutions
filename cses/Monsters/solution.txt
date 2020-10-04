@@ -1,0 +1,6 @@
+Run BFS twice - Once for yourself and once for the monster.
+If you can make it to the destination before the monster, there's a path.
+Else it's not possible.
+
+Be carefule that row++ is going down and row-- is going up.
+Don't need to be smart with INF, just make it 10e9
