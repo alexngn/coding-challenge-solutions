@@ -1,0 +1,5 @@
+Use bellman ford but relax an edge based on a larger value instead of smaller
+
+Use bellman ford a second time to set distances to infinity if they can be relaxed further
+
+Do not relax an edge if the starting distance is negative infinity/initial value
