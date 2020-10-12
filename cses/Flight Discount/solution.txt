@@ -1,0 +1,9 @@
+Do djkstra's algorithm from the source and the destination (1 and n)
+
+Create a transpose of the original graph to use as djkstra's from the destination
+Where dist[a][b] = c and distTranspose[b][a] = c
+
+Iterate through each edge and compare the distance from source to start of the edge + 
+Node n to end of the edge + half the edge weight.
+
+Return the minimum among all edge comparisons
