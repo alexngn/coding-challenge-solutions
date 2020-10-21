@@ -1,0 +1,6 @@
+This is a modified djkstra's search
+Keep in mind that you will never need to go beyond the kth distance to any node
+to find the kth distance of any other node since edge weights are all positive
+
+The kth time you process a node in your BFS will be the kth distance to that node
+Prune any node if you have processed that node k times already.
