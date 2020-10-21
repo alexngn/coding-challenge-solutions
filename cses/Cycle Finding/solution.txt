@@ -1,0 +1,5 @@
+First run bellman for to create single source shortest paths to all nodes.
+Iterate through each edge to see if an edge can further be relaxed.
+If it can, there is a negative cycle. 
+Use parent pointers and keep traversing upwards until you reach a node that has been seen.
+Print the nodes from that traversal
