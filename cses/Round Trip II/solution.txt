@@ -1,0 +1,3 @@
+Same as round trip 1 but do not create bidirectional edges.
+Use a visited array where 1 = grey and 2 = black to find a cycle.
+You're allowed to go to your parent if there's an edge there.
