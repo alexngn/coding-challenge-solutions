@@ -1,0 +1,6 @@
+Create a topological ordering of the graph.
+When processing the next node in the topological ordering:
+- If the current node does not have a distance, ignore it
+- If the distance to the current node + 1 is larger than the distance of the edge
+    - Update the edge to be the distance of the current node + 1
+    - Update the parent pointer of the edge to be the node
