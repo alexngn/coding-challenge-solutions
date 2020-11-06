@@ -1,4 +1,3 @@
 1. Create a topological ordering of the graph
 2. Do dp where for every edge (u,t) dp[t] += dp[t] % mod
 3. Ignore paths that do not originate from the source node (1)
-4. Hello 
