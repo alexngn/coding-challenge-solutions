@@ -1,0 +1,13 @@
+This is modified djkstras
+
+If the neighbor + edge.weight is less than the current recorded distance for the neighbor
+1. Update min distance
+2. Record the number of routes for the neighbor as the same as the curr node
+3. Record the minFlights for the neighbor as the same as the curr node
+4. Record the maxFlights for neighbor as the same as the curr node
+
+if the neighbor.weight + edge.weight is equal to the current recorded distance
+1. Record the number of routes for the neighbor as routes[neigh] += routes[curr]
+2. Record the min and max as the min and max of curr + 1
+3. Do NOT add the neighbors to the PQ as this will TLE 
+- This is not needed since the neigbor being updated is still in the queue and will update it's neighbors when it's prcoessed
